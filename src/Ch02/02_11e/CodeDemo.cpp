@@ -10,6 +10,10 @@ int main(){
     int celsius;
 
     celsius = ((float)5 / 9.0) * (fahrenheit - 32);
+    auto x = (float)5 / 9;
+
+    std::cout << x << std::endl;
+    std::cout << typeid(x).name() << std::endl;
 
     std::cout << std::endl;
     std::cout << "Fahrenheit: " << fahrenheit << std::endl;
